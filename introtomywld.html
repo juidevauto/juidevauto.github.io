@@ -7,7 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="menu">
+        <button class="menu-btn" onclick="toggleSection('section1')">About Me</button>
+        <button class="menu-btn" onclick="toggleSection('section2')">Skills</button>
+        <button class="menu-btn" onclick="toggleSection('section3')">Projects</button>
+    </div>
 
+    <div id="content">
+        <div id="section1" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm a web developer with a passion for clean and functional designs.</p>
+        </div>
+        <div id="section2" class="section">
+            <h2>Skills</h2>
+            <p>Expert in HTML, CSS, JavaScript, React, and Node.js.</p>
+        </div>
+        <div id="section3" class="section">
+            <h2>Projects</h2>
+            <p>Check out my GitHub for amazing open-source projects.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
     <header>
         <div class="container">
             <h1>John Doe</h1>
