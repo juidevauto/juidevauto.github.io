@@ -9,7 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background: linear-gradient(to right, #edcd87, #cfd19f);
+    background: linear-gradient(to right, #FFCBA4, #EFA680);
     color: rgb(255, 215, 0);
     margin: 0;
     padding: 20px;
@@ -32,8 +32,8 @@ content section {
 }
 /* Header */
 header {
-    background: #d4c5e0;
-    color: #2a292b;
+    background: #EFA680;
+    color: #3D2A22;
     text-align: center;
     padding: 50px 0;
 }
@@ -50,7 +50,7 @@ header p {
 
 /* Section Styles */
 section {
-    background: white;
+    background: #D4A017;
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
@@ -58,7 +58,7 @@ section {
 }
 
 h2 {
-    color: #007bff;
+    color: #2D2000;
     margin-bottom: 15px;
     border-bottom: 2px solid #007bff;
     display: inline-block;
@@ -73,12 +73,12 @@ h2 {
 }
 
 .skills ul li {
-    background: #eee;
+    background: #F4A900;
     padding: 10px 15px;
     margin: 5px;
     border-radius: 5px;
     font-weight: 500;
-    color:#646900;
+    color:#332000 ;
 }
 
 /* Experience */
@@ -87,18 +87,18 @@ h2 {
 }
 
 .job h3 {
-    color: #68a6cc;
+    color: #FFCBA4;
 }
 
 .job p {
     font-size: 15px;
-    color: #ecedd8;
+    color: #5A3E2B ;
 }
 
 /* Contact Section */
 .contact a {
     text-decoration: none;
-    color: #007bff;
+    color: #F5E1C0;
     font-weight: bold;
 }
 
@@ -109,7 +109,7 @@ h2 {
 /* Footer */
 footer {
     text-align: center;
-    background: #007bff;
+    background: #F5E1C0;
     color: white;
     padding: 15px 0;
     margin-top: 20px;
@@ -123,8 +123,8 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .fancy-btn {
-    background: linear-gradient(45deg, #e3ed26, #e3ed26);
-    color: white;
+    background: linear-gradient(45deg, #F4A900, #F4A900);
+    color: #332000 ;
     border: none;
     padding: 12px 24px;
     font-size: 18px;
