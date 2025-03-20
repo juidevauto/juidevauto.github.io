@@ -26,7 +26,10 @@ body {
 content section {
    display : none;
 }
-
+.section4
+{
+    color:#dfe0c5;
+}
 /* Header */
 header {
     background: #e3ed26;
