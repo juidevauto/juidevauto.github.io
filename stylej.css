@@ -9,8 +9,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background: linear-gradient(to right, #FFCBA4, #EFA680);
-    color: rgb(255, 215, 0);
+    background: linear-gradient(to right, #F5F5DC, #BDB76B); /* Beige to Khaki */
+    color: #2F4F4F; /* Dark Forest Green */
     margin: 0;
     padding: 20px;
 }
@@ -20,20 +20,23 @@ body {
     width: 80%;
     margin: auto;
     padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Conteny */
-content section {
-   display : none;
+/* Content */
+section {
+   display: none;
 }
-.section4
-{
-    color:#dfe0c5;
+.section4 {
+    color: #FAF3E0; /* Soft Cream */
 }
+
 /* Header */
 header {
-    background: #EFA680;
-    color: #3D2A22;
+    background: #6B8E23; /* Muted Olive */
+    color: #FAF3E0; /* Soft Cream */
     text-align: center;
     padding: 50px 0;
 }
@@ -50,17 +53,18 @@ header p {
 
 /* Section Styles */
 section {
-    background: #D4A017;
+    background: #556B2F; /* Deep Olive Green */
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #FAF3E0; /* Soft Cream */
 }
 
 h2 {
-    color: #2D2000;
+    color: #FAF3E0; /* Soft Cream */
     margin-bottom: 15px;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #BDB76B; /* Rich Khaki */
     display: inline-block;
     padding-bottom: 5px;
 }
@@ -73,12 +77,12 @@ h2 {
 }
 
 .skills ul li {
-    background: #F4A900;
+    background: #6B8E23; /* Muted Olive */
     padding: 10px 15px;
     margin: 5px;
     border-radius: 5px;
     font-weight: 500;
-    color:#332000 ;
+    color: #FAF3E0; /* Soft Cream */
 }
 
 /* Experience */
@@ -87,18 +91,18 @@ h2 {
 }
 
 .job h3 {
-    color: #FFCBA4;
+    color: #F5F5DC; /* Warm Beige */
 }
 
 .job p {
     font-size: 15px;
-    color: #5A3E2B ;
+    color: #2F4F4F; /* Dark Forest Green */
 }
 
 /* Contact Section */
 .contact a {
     text-decoration: none;
-    color: #F5E1C0;
+    color: #FAF3E0; /* Soft Cream */
     font-weight: bold;
 }
 
@@ -109,22 +113,16 @@ h2 {
 /* Footer */
 footer {
     text-align: center;
-    background: #F5E1C0;
-    color: white;
+    background: #BDB76B; /* Rich Khaki */
+    color: #2F4F4F; /* Dark Forest Green */
     padding: 15px 0;
     margin-top: 20px;
 }
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
+
+/* Fancy Button */
 .fancy-btn {
-    background: linear-gradient(45deg, #F4A900, #F4A900);
-    color: #332000 ;
+    background: linear-gradient(45deg, #6B8E23, #556B2F); /* Muted Olive to Deep Olive */
+    color: #FAF3E0; /* Soft Cream */
     border: none;
     padding: 12px 24px;
     font-size: 18px;
@@ -139,5 +137,23 @@ footer {
 .fancy-btn:hover {
     transform: scale(1.1);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #556B2F, #6B8E23);
 }
 
+/* Navigation Bar */
+nav {
+    background-color: #556B2F; /* Deep Olive Green */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #FAF3E0; /* Soft Cream */
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #BDB76B; /* Rich Khaki */
+}
