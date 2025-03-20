@@ -70,6 +70,7 @@ h2 {
     margin: 5px;
     border-radius: 5px;
     font-weight: 500;
+    color:#646900;
 }
 
 /* Experience */
@@ -114,7 +115,7 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .fancy-btn {
-    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    background: linear-gradient(45deg, #c23dcc, #912099);
     color: white;
     border: none;
     padding: 12px 24px;
