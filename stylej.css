@@ -22,6 +22,11 @@ body {
     padding: 20px;
 }
 
+/* Conteny */
+content section {
+   display : none;
+}
+
 /* Header */
 header {
     background: #e3ed26;
