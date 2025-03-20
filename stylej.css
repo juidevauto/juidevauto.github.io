@@ -26,7 +26,7 @@ body {
 }
 
 /* Content */
-section {
+.section {
    display: none;
 }
 .section4 {
